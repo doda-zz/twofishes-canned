@@ -1,6 +1,6 @@
-This is the culmination of a full day of researching and trying to get various stand-alone geocoders to run.
+This is the foursquare's twofishes geocoder compiled with "world data" for you ready-to-run inside a Docker image.
 
-'Twas not an easy task, but it's been boiled down to one line for you.
+This cost me about $100 to run on AWS, but it's free for you!
 
 
 **Warning! This runs docker with `--privileged` in order to open up the "sysctl -w vm.max_map_count=131060" call required by twofishes**
